@@ -38,6 +38,6 @@ public class CompInt {
         newTotal = insert * principal;
         Math.ceil(newTotal);
         DecimalFormat numberFormat = new DecimalFormat("#.00");
-        System.out.println(principal  + " invested at " + interest + "% for " + years + " years compounded " + comp + " times per year is " + numberFormat.format(newTotal) );
+        System.out.println("$" + principal  + " invested at " + interest + "% for " + years + " years compounded " + comp + " times per year is $" + numberFormat.format(newTotal) );
     }
 }
